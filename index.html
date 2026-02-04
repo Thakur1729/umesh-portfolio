@@ -11,19 +11,20 @@
 </head>
 <body class="bg-[#0F172A] text-gray-100 transition-colors duration-300" id="body">
 
-    <nav class="fixed w-full z-50 glass border-b border-gray-800 px-6 py-4 flex justify-between items-center transition-colors">
-        <div class="text-2xl font-bold bg-gradient-to-r from-[#2563EB] to-[#22C55E] bg-clip-text text-transparent">MY.FOLIO</div>
-        <div class="hidden md:flex space-x-8 font-medium">
-            <a href="#home" class="hover:text-[#2563EB] transition">Home</a>
-            <a href="#about" class="hover:text-[#2563EB] transition">About</a>
-            <a href="#projects" class="hover:text-[#2563EB] transition">Projects</a>
-            <a href="#contact" class="hover:text-[#2563EB] transition">Contact</a>
-            <a href="Resume(UmeshThakur).jpg" class="hover:text-[#2563EB] transition">Resume</a>
-        </div>
-        <button onclick="toggleTheme()" class="p-2 rounded-full bg-gray-800 hover:bg-gray-700 transition" id="theme-btn">
-            <i class="fas fa-moon" id="theme-icon"></i>
-        </button>
-    </nav>
+   <nav class="fixed w-full z-50 glass border-b border-gray-800 px-6 py-4 flex justify-between items-center transition-colors">
+    <div class="text-2xl font-bold bg-gradient-to-r from-[#2563EB] to-[#22C55E] bg-clip-text text-transparent">MY.FOLIO</div>
+    
+    <div class="flex flex-wrap space-x-4 text-xs md:text-base font-medium">
+        <a href="#home" class="hover:text-[#2563EB] transition">Home</a>
+        <a href="#about" class="hover:text-[#2563EB] transition">About</a>
+        <a href="#projects" class="hover:text-[#2563EB] transition">Projects</a>
+        <a href="#contact" class="hover:text-[#2563EB] transition">Contact</a>
+    </div>
+
+    <button onclick="toggleTheme()" class="p-2 rounded-full bg-gray-800 hover:bg-gray-700 transition" id="theme-btn">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </button>
+</nav>
 
     <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6">
         <div class="w-48 h-48 rounded-full mb-6 border-4 border-[#2563EB] overflow-hidden shadow-2xl flex items-center justify-center bg-white">
@@ -145,3 +146,4 @@
 
     <script src="script.js"></script>
 </body>
+
