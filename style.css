@@ -31,8 +31,15 @@ body {
     color: #111827 !important; /* Main Text */
 }
 
+/* Light Theme Navbar */
 .light-theme .glass {
     background: rgba(255, 255, 255, 0.8) !important;
+    border-color: #E5E7EB !important;
+}
+
+/* Light Theme Mobile Menu */
+.light-theme #mobile-menu {
+    background-color: #FFFFFF !important;
     border-color: #E5E7EB !important;
 }
 

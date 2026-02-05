@@ -24,3 +24,20 @@ function toggleTheme() {
         themeBtn.classList.add('bg-gray-800');
     }
 }
+
+function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const icon = document.getElementById('menu-icon');
+    
+    // Toggle Hidden Class
+    menu.classList.toggle('hidden');
+    
+    // Switch Icon (Bars <-> Times)
+    if (menu.classList.contains('hidden')) {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+    } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+    }
+}
